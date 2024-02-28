@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.App{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+background-image: url(https://www.pngkey.com/png/full/1-14330_money-png-falling-money-falling-transparent-background.png);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+margin-top: 100px;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col{
+
+border: 5px;
+border-radius: 10%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background: rgba(170, 187, 97, 0.5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container2{
+    border: 5px;
+    border-radius: 10%;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: rgba(170, 187, 97, 0.5);
+
+
 }
 
-.App-link {
-  color: #61dafb;
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.button{
+
+text-align: center;
+
+}
+
+.form{
+
+margin: 30px;
+
+}
+
+.result{
+
+    border: 2px;
+    border-radius: 5px
+
+
 }
